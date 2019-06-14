@@ -52,6 +52,7 @@
             this.btnRun.TabIndex = 1;
             this.btnRun.Text = "START";
             this.btnRun.UseVisualStyleBackColor = true;
+            this.btnRun.Click += new System.EventHandler(this.BtnRun_Click);
             // 
             // btnEnd
             // 
@@ -80,6 +81,10 @@
             this.lblStatus.TabIndex = 4;
             this.lblStatus.Text = "STATUS : ";
             // 
+            // Timer
+            // 
+            this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -94,6 +99,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "status";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
