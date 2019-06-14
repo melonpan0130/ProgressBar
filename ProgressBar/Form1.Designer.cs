@@ -46,32 +46,35 @@
             // 
             // btnRun
             // 
+            this.btnRun.BackColor = System.Drawing.Color.Orange;
             this.btnRun.Location = new System.Drawing.Point(13, 43);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(170, 65);
             this.btnRun.TabIndex = 1;
             this.btnRun.Text = "START";
-            this.btnRun.UseVisualStyleBackColor = true;
+            this.btnRun.UseVisualStyleBackColor = false;
             this.btnRun.Click += new System.EventHandler(this.BtnRun_Click);
             // 
             // btnEnd
             // 
+            this.btnEnd.BackColor = System.Drawing.Color.Crimson;
             this.btnEnd.Location = new System.Drawing.Point(189, 43);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(75, 28);
             this.btnEnd.TabIndex = 2;
             this.btnEnd.Text = "STOP";
-            this.btnEnd.UseVisualStyleBackColor = true;
+            this.btnEnd.UseVisualStyleBackColor = false;
             this.btnEnd.Click += new System.EventHandler(this.BtnEnd_Click);
             // 
             // btnReset
             // 
+            this.btnReset.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnReset.Location = new System.Drawing.Point(189, 77);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 31);
             this.btnReset.TabIndex = 3;
             this.btnReset.Text = "RESET";
-            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // lblStatus

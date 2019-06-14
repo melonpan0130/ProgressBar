@@ -38,7 +38,7 @@ namespace ProgressBar
                 this.Timer.Enabled = false;
                 return;
             }
-            this.pbStatus.Value = Num;
+            this.pbStatus.Value = Num; // increase 1% in 1 seconds
             this.lblStatus.Text = OrgStr + Num + "%";
         }
 
