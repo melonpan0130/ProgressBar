@@ -41,5 +41,17 @@ namespace ProgressBar
             this.pbStatus.Value = Num;
             this.lblStatus.Text = OrgStr + Num + "%";
         }
+
+        private void BtnReset_Click(object sender, EventArgs e)
+        {
+            this.Num = 0;
+            this.pbStatus.Value = Num;
+            this.lblStatus.Text = OrgStr;
+        }
+
+        private void BtnEnd_Click(object sender, EventArgs e)
+        {
+            this.Timer.Enabled = false;
+        }
     }
 }

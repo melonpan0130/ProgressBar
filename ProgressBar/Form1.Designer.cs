@@ -62,6 +62,7 @@
             this.btnEnd.TabIndex = 2;
             this.btnEnd.Text = "STOP";
             this.btnEnd.UseVisualStyleBackColor = true;
+            this.btnEnd.Click += new System.EventHandler(this.BtnEnd_Click);
             // 
             // btnReset
             // 
@@ -71,6 +72,7 @@
             this.btnReset.TabIndex = 3;
             this.btnReset.Text = "RESET";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // lblStatus
             // 
